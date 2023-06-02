@@ -1,8 +1,8 @@
 Module: dylan-happy-test-suite
 
 define test test-pdi ()
-  assert-equal(1, perfect-digital-invariant(1, p: 2, base: 10));
-  assert-equal(4150, perfect-digital-invariant(4150, p: 5));
+  assert-equal(1, perfect-digital-invariant(1, power: 2, base: 10));
+  assert-equal(4150, perfect-digital-invariant(4150, power: 5));
 end test;
 
 define test test-happy ()
