@@ -5,7 +5,7 @@ define function main
   let exit-code = 0;
   if (arguments.size < 2)
     format-err("Happy numbers in a range.\n");
-    format-err("Usage: %s <from> <to>\n", name);
+    format-err("Usage: %s <from:integer> <to:integer>\n", name);
     exit-code := 1;
   else
     let from   = string-to-integer(arguments[0]);
